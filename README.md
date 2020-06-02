@@ -167,7 +167,7 @@ We provide `sample_video/` captured with hand-held camera and `sample_video_fixe
 cd Background-Matting/sample_video
 mkdir input background
 ffmpeg -i teaser.mov input/%04d_img.png -hide_banner
-ffmpeg -i target_back.mov input/%04d_back.png -hide_banner
+ffmpeg -i target_back.mov background/%04d.png -hide_banner
 ```
 
 Repeat the same for `sample_video_fixed`
